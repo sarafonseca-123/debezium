@@ -1,0 +1,11 @@
+metadata:
+    product: Data Platform
+    component: data-debezium
+    type: service
+    cluster: kube-0
+    namespace: backstage
+    cost_center: data-platform
+    team: data-platform-core
+    manisfest_type: helm
+    manifest_path: http://aiushauishaiush
+    description: A Debezium fork
