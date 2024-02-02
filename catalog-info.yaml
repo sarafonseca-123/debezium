@@ -1,20 +1,20 @@
 apiVersion: backstage.io/v1alpha1
 kind: Component
-links:
-- icon: dashboard
-  title: Dashboard - Kubernetes Monitoring
-  url: https://dashboard.example.com
 metadata:
   annotations:
     github.com/project-slug: sarafonseca-123/debezium
   description: A demo component of a microrepo
+  links:
+    - icon: dashboard
+      title: Dashboard - Kubernetes Monitoring
+      url: https://dashboard.example.com
   name: backstage-microrepo-demo
+  tags:
+    - kubernetes
+    - backstage-microrepo-demo
+    - infra
 spec:
   lifecycle: production
   owner: infra
-  system: some-microrepo
+  system: apps
   type: service
-tags:
-- kubernetes
-- backstage-microrepo-demo
-- infra
