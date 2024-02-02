@@ -3,18 +3,18 @@ kind: Component
 metadata:
   annotations:
     github.com/project-slug: sarafonseca-123/debezium
-  description: A demo component of a microrepo
+  description: A Debezium fork
   links:
     - icon: dashboard
-      title: Dashboard - Kubernetes Monitoring
+      title: Dashboard - Debezium Monitoring
       url: https://dashboard.example.com
-  name: backstage-microrepo-demo
+  name: data-debezium
   tags:
-    - kubernetes
-    - backstage-microrepo-demo
-    - infra
+    - cdc
+    - data-platform
+    - debezium
 spec:
   lifecycle: production
-  owner: infra
-  system: apps
+  owner: data-platform-core
+  system: data-platform
   type: service
